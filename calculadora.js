@@ -1,9 +1,13 @@
 var somar = require("./modulos/somar");
 var media = require("./modulos/media");
-var multiplicar = require("/modulos/multiplicar");
-var dividir = require("/modulos/dividir");
+var multiplica = require ("./modulos/multiplica");
+var divisao = require ("./modulos/divisao");
+var mensagem = require ("./modulos/mensagem");
+var nome = "Fernando";
+var msg = "Seja bem-vindo";
 
-console.log("a soma de x e y e " + somar(20,90));
-console.log("a media de x e y e" / media(20,90));
-console.log("a media de x e y e" * multiplicar(20,90));
-console.log("a media de x e y e" / dividir(20,90));
+console.log("A soma de X e Y é: " + somar(20,90));
+console.log("A média de X e Y é: " + media(20,90));
+console.log("O produto entre X e Y é: " + multiplica(20,90));
+console.log("A divisão entre X e Y é: " + divisao(20,90));
+console.log(mensagem(nome,msg));
